@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class MenuScript : MonoBehaviour
 {
     public Animator animator;
+    public GameObject options;
 
     private void Start()
     {
@@ -24,6 +25,17 @@ public class MenuScript : MonoBehaviour
     {
         MainMenuExit();
         Invoke("CloseGame", 0.3f);
+    }
+
+    public void OptionsClick()
+    {
+        MainMenuExit();
+        Invoke("SetOptionsActive", 0.3f);
+    }
+
+    public void SetOptionsActive()
+    {
+        options.SetActive(true);
     }
 
     void CloseGame()
