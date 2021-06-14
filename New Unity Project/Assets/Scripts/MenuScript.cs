@@ -15,12 +15,18 @@ public class MenuScript : MonoBehaviour
     //load the "game"
     public void PlayGame() 
     {
-        animator.Play("MainMenuExit");
+        MainMenuExit();
         Invoke("StartGame", 0.3f);
     }
 
     //quit the game
     public void QuitGame() 
+    {
+        MainMenuExit();
+        Invoke("CloseGame", 0.3f);
+    }
+
+    void CloseGame()
     {
         Application.Quit();
     }
@@ -28,5 +34,10 @@ public class MenuScript : MonoBehaviour
     void StartGame() 
     {
         SceneManager.LoadScene("Level1");
+    }
+
+    void MainMenuExit()
+    {
+        animator.Play("MainMenuExit");
     }
 }
