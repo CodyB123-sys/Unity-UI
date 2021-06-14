@@ -16,13 +16,17 @@ public class MenuScript : MonoBehaviour
     public void PlayGame() 
     {
         animator.Play("MainMenuExit");
-        yield return new WaitForSeconds(1);
-        SceneManager.LoadScene("Level1");
+        Invoke("StartGame", 0.3f);
     }
 
     //quit the game
     public void QuitGame() 
     {
         Application.Quit();
+    }
+
+    void StartGame() 
+    {
+        SceneManager.LoadScene("Level1");
     }
 }
