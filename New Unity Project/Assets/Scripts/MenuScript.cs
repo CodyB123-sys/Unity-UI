@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class MenuScript : MonoBehaviour
 {
+    public Animator animator;
+
     //load the "game"
     public void PlayGame() 
     {
