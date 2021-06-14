@@ -624,6 +624,7 @@ GameObject:
   - component: {fileID: 909643998}
   - component: {fileID: 909643997}
   - component: {fileID: 909643996}
+  - component: {fileID: 909643999}
   m_Layer: 5
   m_Name: PlayButton
   m_TagString: Untagged
@@ -742,6 +743,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 909643994}
   m_CullTransparentMesh: 0
+--- !u!95 &909643999
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 909643994}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1107806624
 GameObject:
   m_ObjectHideFlags: 0
@@ -790,6 +810,7 @@ GameObject:
   - component: {fileID: 1215354010}
   - component: {fileID: 1215354009}
   - component: {fileID: 1215354008}
+  - component: {fileID: 1215354011}
   m_Layer: 5
   m_Name: QuitButton
   m_TagString: Untagged
@@ -908,6 +929,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1215354006}
   m_CullTransparentMesh: 0
+--- !u!95 &1215354011
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1215354006}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1233023362
 GameObject:
   m_ObjectHideFlags: 0
@@ -1643,6 +1683,7 @@ GameObject:
   - component: {fileID: 1704184152}
   - component: {fileID: 1704184151}
   - component: {fileID: 1704184150}
+  - component: {fileID: 1704184153}
   m_Layer: 5
   m_Name: OptionsButton
   m_TagString: Untagged
@@ -1772,6 +1813,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1704184148}
   m_CullTransparentMesh: 0
+--- !u!95 &1704184153
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1704184148}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1771499115
 GameObject:
   m_ObjectHideFlags: 0
