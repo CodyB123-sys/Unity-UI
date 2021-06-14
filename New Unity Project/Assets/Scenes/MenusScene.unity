@@ -1672,7 +1672,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 568099a9522bfb746a1844af666339a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 0}
+  animator: {fileID: 1645607796}
 --- !u!95 &1645607796
 Animator:
   serializedVersion: 3
@@ -1683,7 +1683,7 @@ Animator:
   m_GameObject: {fileID: 1645607793}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ea437b6738fb8f5419b373e6696356f8, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

@@ -7,9 +7,16 @@ public class MenuScript : MonoBehaviour
 {
     public Animator animator;
 
+    private void Start()
+    {
+        animator = gameObject.GetComponent<Animator>();
+    }
+
     //load the "game"
     public void PlayGame() 
     {
+        animator.Play("MainMenuExit");
+        yield return new WaitForSeconds(1);
         SceneManager.LoadScene("Level1");
     }
 
