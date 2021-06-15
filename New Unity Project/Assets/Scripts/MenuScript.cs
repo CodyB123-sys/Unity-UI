@@ -7,6 +7,7 @@ public class MenuScript : MonoBehaviour
 {
     public Animator animator;
     public GameObject options;
+    
 
     private void Start()
     {
@@ -30,12 +31,9 @@ public class MenuScript : MonoBehaviour
     public void OptionsClick()
     {
         MainMenuExit();
-        Invoke("SetOptionsActive", 0.3f);
-    }
-
-    public void SetOptionsActive()
-    {
         options.SetActive(true);
+        Invoke("OptionsMenuEnter", 0.3f);
+
     }
 
     void CloseGame()
@@ -51,5 +49,10 @@ public class MenuScript : MonoBehaviour
     void MainMenuExit()
     {
         animator.Play("MainMenuExit");
+    }
+
+    void OptionsMenuEnter() 
+    {
+        options.SendMessage("OptionsMenuEnter");
     }
 }

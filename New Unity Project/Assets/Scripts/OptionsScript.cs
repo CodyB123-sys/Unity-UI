@@ -12,9 +12,13 @@ public class OptionsScript : MonoBehaviour
         animator = gameObject.GetComponent<Animator>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void OptionsMenuEnter() 
     {
-        
+        animator.Play("OptionsMenuEnter");
+    }
+
+    public void OptionsMenuExit()
+    { 
+    
     }
 }
